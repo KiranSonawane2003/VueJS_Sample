@@ -20,8 +20,3 @@ steps:
     npm install
     npm run build ----output-path='/home/vsts/work/1/s/dist/'
   displayName: 'npm install and build'
-
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '/home/vsts/work/1/s/dist/'
-    artifact: 'dist'
