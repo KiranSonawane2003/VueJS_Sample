@@ -23,5 +23,5 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/dist/'
+    targetPath: '/home/vsts/work/1/s/dist/'
     artifact: 'dist'
