@@ -18,7 +18,7 @@ steps:
 - script: 
     npm install -g @vue/cli
     npm install
-    npm run build
+    npm run build ----output-path='/home/vsts/work/1/s/dist/'
   displayName: 'npm install and build'
 
 - task: PublishPipelineArtifact@1
